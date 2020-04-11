@@ -3,4 +3,7 @@ node_js:
   - 12.16.1
 script:
   - node index.js
-
+deploy:
+  provider: heroku
+  app: react-pwa-ssr
+  strategy: api
