@@ -1,6 +1,9 @@
 {
   "name": "react-ssr-pwa",
   "version": "0.0.1",
+  "engines": {
+    "node": "12.16.1"
+  },
   "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
