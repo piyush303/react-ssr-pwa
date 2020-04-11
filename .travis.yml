@@ -7,8 +7,4 @@ script:
 - node index.js
 deploy:
   provider: heroku
-  api_key:
-    secure: UKanSGezBP5GAc/FL3JSQwe4TMD2y04lrXGe4yL9WUbrpK0LhpO8HMwCw7167Cak7XSRFGFex9kYiy3y4Zgkg2U2AwcP4yyM4qN/Gh5IB9I8jHD8oprRo3MogXyKvUoIWeYEMBjbme2TkNqsKpFYFzRlDgnuKM7Zo28vf5bFRlAyUN0YzsJaZsZOy0/Bu2/rxCSCA976hSDiY+lyw8lgWfUoGzD0dKwC0TO1+L9mO+l/jO7CVYGrh8slHwBbNwsRefFvnQM9s/vQkVjehBkXRHUWl+CK6Mlzf+SPixsNj4EnPw06Jl6F6k4kGr/Slc2Z0BVuegQKntjpbds1LoCUnm/Qkx2e1CSakv5EDyuhewyTSMXtZ0CuLPB5GpIrglPbRx40vudtNZzygk5o4y+yHuJkyqgf3DuPDazN4Url0HgfH7bwzX2PXVdwH38uixU4eVe6YbIko6qYmDwSqa8Qmp5aJ/BLVVkwUgXK3AWzmScTIjvcO1vUxHSR1vjLGe2qr1vOBhWZrg3v9IODnmqnUCnSi4dISBW3SR6yANz9+8rdsr10q5QbQuyvYXpGfEVy7KSZggwiAVBLvaapmOybuV6w4nrt7koLvoxO9GbjXGoltkO2nRNTp9tZeRAhe5mhBkxupx/fvtqjYi5A41akxh05qXUshWh+zaENBOCc6KM=
   app: react-pwa-ssr
-  on:
-    repo: piyush303/react-ssr-pwa
