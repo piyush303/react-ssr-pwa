@@ -1,10 +1,5 @@
 language: node_js
-os: linux
-dist: xenial 
-node_js: node
+node_js:
+  - 12.16.1
 script:
-- node index.js
-deploy:
-  provider: heroku
-  app: react-pwa-ssr
-  strategy: api
+  - node index.js
