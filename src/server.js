@@ -6,7 +6,6 @@ import { matchRoutes } from 'react-router-config'
 import routes from './routes'
 import App from './App'
 import renderAssets from './lib/renderAssets'
-import getIcon from './pages/icon/getIcon'
 
 const makeServerMiddleware = ({ files }) => {
   const { cssLinks, scripts } = renderAssets(files)
@@ -19,7 +18,7 @@ const makeServerMiddleware = ({ files }) => {
       currentRoute.match &&
       currentRoute.match.path === '/icon/:name'
     ) {
-      state.icon = await getIcon(currentRoute.match.params.name)
+      // state.icon = await getIcon(currentRoute.match.params.name)
     }
     const renderedApp = ReactDOMServer.renderToString(
       <StaticRouter location={req.path} context={{ req, res }}>
