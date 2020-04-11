@@ -1,0 +1,24 @@
+header {
+  background-color: #FF6600;
+}
+
+ul {
+  list-style: none;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.header__list  li {
+  display: inline;
+  border-right: 2px solid #000000;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.header__list  li:nth-last-child(1) {
+  border-right: none;
+}
+
+.header__list  li.active {
+  color: #ffffff;
+}
