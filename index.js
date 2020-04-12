@@ -3,7 +3,7 @@ const path = require('path')
 const Express = require('express')
 const shrinkRay = require('shrink-ray-current')
 const { default: makeServerMiddleware } = require('./build/server')
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 4000
 
 const assets = JSON.parse(
   fs.readFileSync(path.resolve(process.cwd(), './build/asset-manifest.json'))
