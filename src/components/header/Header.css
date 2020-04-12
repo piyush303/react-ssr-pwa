@@ -4,15 +4,26 @@ header {
 
 ul {
   list-style: none;
-  padding: 20px 0;
+  padding: 17px 12px;
   margin: 0;
+  font-weight: bold;
+}
+
+.header__list .logo {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 2px 6px;
+  margin-right: 3px;
 }
 
 .header__list  li {
   display: inline;
-  border-right: 2px solid #000000;
-  padding: 0 20px;
+  padding: 0 15px;
   cursor: pointer;
+}
+
+.header__list  li:not(.logo) {
+  border-right: 2px solid #000000;
 }
 
 .header__list  li:nth-last-child(1) {
