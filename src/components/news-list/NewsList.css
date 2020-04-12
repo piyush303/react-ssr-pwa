@@ -81,7 +81,9 @@
   }
 
   .news-wrapper li span {
-    padding: 0 5px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
   }
 
   .comments,
@@ -90,7 +92,13 @@
   }
 
   .title {
+    font-size: 16px;
     display: block;
+  }
+
+  .created-at {
+    display: inline-block;
+    padding-top: 10px;
   }
 
   .load-more {
